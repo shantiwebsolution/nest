@@ -2,6 +2,12 @@
 
 Welcome to the second assignment of the NestJS course! This assignment will help you build a complete Users API with CRUD operations, data validation, and DTOs.
 
+> **⚠️ Railway Deployment Issue**
+>
+> Railway deployment is not working
+>
+> **Reference Recording:** [📹 View Issue Recording](assignment_2/screens/railway_not_working.mp4)
+
 ## 📁 Project Structure
 
 ### Code Implementation
