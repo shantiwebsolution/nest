@@ -6,7 +6,7 @@ Welcome to the second assignment of the NestJS course! This assignment will help
 >
 > Railway deployment is not working
 >
-> **Reference Recording:** [📹 View Issue Recording](assignment_2/screens/railway_not_working.mp4)
+> **Reference Recording:** [📹 View Issue Recording](/screens/railway_not_working.mp4)
 
 ## 📁 Project Structure
 
