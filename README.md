@@ -15,22 +15,15 @@ This assignment covers the basics of NestJS framework including:
 - Service layer implementation
 - Testing setup
 
-## 🚀 Getting Started
+### Assignment 2
 
-1. Navigate to the assignment directory: `cd nest/assignment_1`
-2. Follow the instructions in the assignment's README file
-3. Run the NestJS application and explore the code structure
+**Assignment 2**: [View on GitHub](https://github.com/shantiwebsolution/nest/tree/main/assignment_2)
 
-## 📖 Learning Objectives
+This assignment focuses on building a complete Users API including:
 
-By the end of this course, you will be able to:
-
-- Set up and configure NestJS projects
-- Create RESTful APIs with controllers and services
-- Implement proper project structure and organization
-- Write unit and integration tests
-- Deploy NestJS applications
-
----
-
-_Happy learning! 🎯_
+- RESTful API development with CRUD operations
+- Data Transfer Objects (DTOs) for validation
+- Advanced controller implementation with GET and POST endpoints
+- Service layer for business logic and data management
+- API testing with Postman
+- Module organization and dependency injection
