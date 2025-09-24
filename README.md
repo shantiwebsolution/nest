@@ -27,3 +27,5 @@ This assignment focuses on building a complete Users API including:
 - Service layer for business logic and data management
 - API testing with Postman
 - Module organization and dependency injection
+
+Build trigger
