@@ -2,7 +2,7 @@
 
 Welcome to the first assignment of the NestJS course! This assignment will help you get hands-on experience with NestJS framework basics.
 
-> ** Updates: Code is Deployed**
+> **Updates: Code is Deployed**
 >
 > As per mentor's feed back on submition code is deployeed on vercel
 >
