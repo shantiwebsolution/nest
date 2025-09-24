@@ -2,11 +2,11 @@
 
 Welcome to the second assignment of the NestJS course! This assignment will help you build a complete Users API with CRUD operations, data validation, and DTOs.
 
-> **⚠️ Railway Deployment Issue**
+> **Updates: Code is Deployed**
 >
-> Railway deployment is not working
+> As per mentor's feed back on submition code is deployeed on vercel
 >
-> **Reference Recording:** [📹 View Issue Recording](/screens/railway_not_working.mp4)
+> [ Click Here to view vercel app](https://nest-iota-ten.vercel.app/)
 
 ## 📁 Project Structure
 
