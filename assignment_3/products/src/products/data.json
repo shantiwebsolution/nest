@@ -1,0 +1,30 @@
+
+[
+"message": 'this file is not being used, but keep it as a reference'
+  {
+    "price": 119900,
+    "id": "f6a1c4d2-3b9e-4a77-9f21-5d2e7a8c9b10",
+    "name": "Apple MacBook Air 15 (M4, 2025)"
+  },
+  {
+    "price": 159990,
+    "id": "0c3e2b14-7f58-4f20-9a6d-3b2c5a7e9d41",
+    "name": "Dell XPS 13 (9340)"
+  },
+  {
+    "price": 129990,
+    "id": "ab12cd34-56ef-4789-90ab-cdef12345678",
+    "name": "Lenovo ThinkPad X1 Carbon Gen 12"
+  },
+  {
+    "price": 139990,
+    "id": "9d8c7b6a-5e4f-4321-9a0b-1c2d3e4f5a6b",
+    "name": "HP Spectre x360 14 (2025)"
+  },
+  {
+    "price": 189990,
+    "id": "123e4567-e89b-12d3-a456-426614174000",
+    "name": "ASUS ROG Zephyrus G14 (2024)"
+  }
+]
+
