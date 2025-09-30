@@ -6,7 +6,7 @@ Welcome to the third assignment of the NestJS course! This assignment will help 
 >
 > As per mentor's feedback on submission, code is deployed on Vercel
 >
-> [Click Here to view Vercel app](https://your-deployment-url.vercel.app/)
+> [Click Here to view Vercel app](https://nest-qa94.vercel.app/)
 
 ## 📁 Project Structure
 
