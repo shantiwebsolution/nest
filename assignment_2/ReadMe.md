@@ -4,9 +4,7 @@ Welcome to the second assignment of the NestJS course! This assignment will help
 
 > **Updates: Code is Deployed**
 >
-> As per mentor's feed back on submition code is deployeed on vercel
->
-> [ Click Here to view vercel app](https://nest-iota-ten.vercel.app/)
+> [ Click Here to view vercel app](https://nest-qa94.vercel.app/)
 
 ## 📁 Project Structure
 
