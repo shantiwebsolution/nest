@@ -2,6 +2,12 @@
 
 Welcome to the fourth assignment of the NestJS course! This assignment will help you build a complete Blog API with Posts and Users management, including database integration, TypeORM entities, CRUD operations, data validation, DTOs, and search functionality.
 
+> **Updates: Code is Deployed**
+>
+> As per mentor's feedback on submission, code is deployed on Vercel
+>
+> [Click Here to view Vercel app](https://nest-ppq1.vercel.app/)
+
 ## 📁 Project Structure
 
 ### Code Implementation
