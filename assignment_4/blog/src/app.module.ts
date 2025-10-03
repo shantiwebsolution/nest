@@ -9,8 +9,8 @@ import { UserModule } from './user/user.module';
   imports: [
     TypeOrmModule.forRoot({
       type: 'mysql',
-      host: 'localhost',
-      port: 50080,
+      host: 'database-1.cp6cimae4gel.ap-south-1.rds.amazonaws.com',
+      port: 3306,
       username: 'root',
       password: 'swamibapa',
       database: 'blog_db',
