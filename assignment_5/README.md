@@ -9,6 +9,8 @@ Welcome to the fifth and most advanced assignment of the NestJS course! This ass
 > [Click Here to view Live Deployment](http://ec2-43-205-184-80.ap-south-1.compute.amazonaws.com:3000/)
 >
 > [Swagger API Documentation](http://ec2-43-205-184-80.ap-south-1.compute.amazonaws.com:3000/api/docs)
+>
+> [Postman Json Collection](https://github.com/shantiwebsolution/nest/blob/main/assignment_5/postman_collection.json)
 
 ## 📁 Project Structure
 
@@ -225,7 +227,7 @@ services:
       POSTGRES_PASSWORD: postgres
       POSTGRES_DB: crm_task_manager
     ports:
-      - "5431:5431"                # Expose on host port 5431
+      - "5432:5432"                # Expose on host port 5432
     volumes:
       - postgres_data:/var/lib/postgresql/data  # Persist data
     networks:
@@ -268,7 +270,7 @@ networks:
 
 1. **Service Communication**: Both services are on `crm_network`, allowing app to connect to database using hostname `postgres`
 2. **Data Persistence**: `postgres_data` volume ensures database data survives container restarts
-3. **Port Mapping**: Exposes database on 5431 and app on 3000 to host machine
+3. **Port Mapping**: Exposes database on 5432 and app on 3000 to host machine
 4. **Environment Variables**: All configuration centralized in docker-compose.yml
 5. **Hot-Reload**: Source code is mounted as volume for development convenience
 6. **Dependency Management**: `depends_on` ensures database starts before app
