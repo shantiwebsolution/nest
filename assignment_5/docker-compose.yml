@@ -1,0 +1,49 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:15-alpine
+    container_name: crm_postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: crm_task_manager
+    ports:
+      - "5431:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - crm_network
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    pull_policy: build
+    container_name: crm_app
+    environment:
+      DB_HOST: postgres
+      DB_PORT: 5432
+      DB_USERNAME: postgres
+      DB_PASSWORD: postgres
+      DB_DATABASE: crm_task_manager
+      JWT_SECRET: qrndOK0mSRDwo4Vmag/GUBRKoEzcBvkWYsnwV9po4E7W27Oh/l2ouBt3p3AbdrGj
+      JWT_EXPIRATION: 24h
+      PORT: 3000
+      NODE_ENV: development
+    ports:
+      - "3000:3000"
+    depends_on:
+      - postgres
+    networks:
+      - crm_network
+    volumes:
+      - .:/app
+      - /app/node_modules
+
+volumes:
+  postgres_data:
+
+networks:
+  crm_network:
+    driver: bridge
